@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+:root{
+    --primary:#F8DED9;
+    --secondary:#0B1D51;
+    --additional:#314554;
+}
+body{
+    margin:0;
+    padding: 0;
+    font-family:"DM Sans",sans-serif;
+    color:var(--primary)
+}
+#main{
+    background-image:url(img/uni.png);
+    width: 100%;;
+    height:400px;
+    background-position:center;
+    background-size:cover;
+    margin-top: -10px;
+    
+}
+a{
+    text-decoration: none;
+}
+.container{
+    max-width: 1200px;
+    padding: 16px;
+    margin: auto;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+.home-list{
+    display: flex;
+    list-style: none;
+    gap:20px;
+}
+.home-list a{
+    color:var(--primary);
+}
+.main .intro-heading {
+    font-size: 30px;
+    padding-left: 5%;
+}
+
+.main .main-heading {
+    font-size: 70px;
+    margin-top: -10px;
+    padding-left: 10%;
+}
+.main .quote {
+    font-family: 'Arial', sans-serif; /* Изменяем шрифт на Arial */
+    font-size: 18px; /* Изменяем размер шрифта */
+   
+  }
+  
+#music{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Центровка  по горизонтали */
+    align-items: center;    /* Центровка по вертикали */
+    margin-top: -40px;
+}
+/* Reasons Section */
+#reasons {
+    padding: 40px 0;
+    background-color: var(--additional);
+    color: white;
+    text-align: center;
+}
+
+.reason-title h1 {
+    font-size: 36px;
+}
+
+.reasons {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.reason {
+    text-align: center;
+    margin: 20px;
+    width: 30%;
+}
+
+.reason img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.ref a{
+    color:white
+}
+
+.line {
+    height: 2px;
+    background-color: var(--primary);
+    margin: 20px auto;
+    width: 50%;
+}
+
+/* Me and Friends Section */
+#me_friends {
+    padding: 40px 0;
+    background-color: #aeb9c2;
+    text-align: center;
+}
+
+#me_friends p {
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    text-align: center;
+    margin: 100px;
+}
+
+
+.gul h4 {
+    font-size: 30px;
+    font-weight: bold;
+    font-family:'Arial', sans-serif ;
+    color: #425A6C;
+}
+
+#friends {
+    padding: 40px 0;
+    background-color:#273363;
+    color: white;
+    text-align: center;
+}
+
+.friends {
+    display: flex;
+    justify-content: center; 
+    flex-wrap: wrap; /* Если места не хватает, элементы переходят на следующую строку */
+}
+
+.friends .friend {
+    width: 30%;
+    margin: 20px;
+    text-align: center;
+}
+
+.friend img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.friend h3 {
+    font-size: 17px;
+    margin-top: 10px;
+}
+
+/* Question Section */
+#question {
+    background-color: #AE9A9F;
+    padding: 20px 0;
+    text-align: left;
+}
+
+#question h1 {
+    font-size: 40px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom:20px;
+}
+
+#question ol {
+    font-family:'Courier New', Courier, monospace;
+    padding: 0;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+#question li {
+    margin-bottom: 10px;
+}
+
+.image img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+/* Footer */
+footer {
+    background-color:rgb(255, 255, 255);
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer .footerlogo {
+    width: 100px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+footer p {
+    font-size: 16px;
+    color:black;
+}
+
+
+
+    
